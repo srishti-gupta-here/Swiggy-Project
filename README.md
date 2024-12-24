@@ -1,5 +1,5 @@
 # Zomato Data Exploration and Analysis with SQL (SQL Server)
-![SWIGGY](image.png)
+![SWIGGY](image.jpg)
 
 
 ## Overview
