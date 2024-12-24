@@ -1,13 +1,18 @@
-# Swiggy Data Exploration and Analysis with SQL (SQL Server)
+# Zomato Data Exploration and Analysis with SQL (SQL Server)
 ![SWIGGY](image.png)
 
 
 ## Overview
-Swiggy is an Indian online food ordering and delivery platform that connects customers with restaurants across various cities. By analyzing the Swiggy dataset, we aim to uncover insights into customer behavior, restaurant performance, popular cuisines, and delivery trends to understand the business operations better. 
+Zomato is an Indian online food ordering and delivery platform that connects customers with restaurants across various cities. By analyzing the Swiggy dataset, we aim to uncover insights into customer behavior, restaurant performance, popular cuisines, and delivery trends to understand the business operations better. 
 
 The dataset contains tables like `food`,`orders`, `users`, `restaurant`, and `menu`, providing valuable data points such as user information, sales, order trends, and restaurant performance.
 
+## Dataset
 
+The data for this project is sourced from the Kaggle dataset:
+
+- **Dataset Link:** [Zomato Dataset](https://www.kaggle.com/datasets/anas123siddiqui/zomato-database)
+  
 ## Data Exploration with SQL
 
 While exploring the Swiggy dataset, the following tasks were undertaken:
