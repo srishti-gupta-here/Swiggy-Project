@@ -1,9 +1,11 @@
+-- Food Table
 CREATE TABLE food (
     f_id CHAR(11) PRIMARY KEY,
     item VARCHAR(250) NOT NULL,
     veg_or_non_veg VARCHAR(10) CHECK (veg_or_non_veg IN ('Veg', 'Non-Veg')) NOT NULL
 );
 
+--Restaurant Table
 CREATE TABLE restaurant (
     r_id SERIAL PRIMARY KEY,
     r_name VARCHAR(100) ,
@@ -14,6 +16,7 @@ CREATE TABLE restaurant (
     cuisine VARCHAR(100) 
 );
 
+--Users Table 
 CREATE TABLE users (
     user_id SERIAL PRIMARY KEY,
     u_name VARCHAR(100),
@@ -28,6 +31,7 @@ CREATE TABLE users (
     family_size SMALLINT
 );
 
+--Orders Table
 CREATE TABLE orders (
     order_date DATE NOT NULL,
     sales_qty INT CHECK (sales_qty >= 0),
@@ -37,6 +41,7 @@ CREATE TABLE orders (
     r_id INT REFERENCES restaurant(r_id) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
+--Menu Table
 CREATE TABLE menu (
     menu_id CHAR(11),
     r_id INT REFERENCES restaurant(r_id) ON DELETE CASCADE ON UPDATE CASCADE,
