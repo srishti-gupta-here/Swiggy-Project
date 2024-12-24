@@ -1,9 +1,9 @@
 # Zomato Data Exploration and Analysis with SQL (SQL Server)
-![SWIGGY](image.jpg)
+![Zomato](image.jpg)
 
 
 ## Overview
-Zomato is an Indian online food ordering and delivery platform that connects customers with restaurants across various cities. By analyzing the Swiggy dataset, we aim to uncover insights into customer behavior, restaurant performance, popular cuisines, and delivery trends to understand the business operations better. 
+Zomato is an Indian online food ordering and delivery platform that connects customers with restaurants across various cities. By analyzing the Zomato dataset, we aim to uncover insights into customer behavior, restaurant performance, popular cuisines, and delivery trends to understand the business operations better. 
 
 The dataset contains tables like `food`,`orders`, `users`, `restaurant`, and `menu`, providing valuable data points such as user information, sales, order trends, and restaurant performance.
 
