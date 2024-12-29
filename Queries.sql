@@ -1,6 +1,5 @@
 -- 1. Customer Insights: Top customers by order frequency and total spend
 WITH CustomerSpend AS (
-WITH CustomerSpend AS (
     SELECT 
         o.user_id, 
         COUNT(o.sales_qty) AS total_orders, 
